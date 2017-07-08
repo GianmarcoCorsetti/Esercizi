@@ -1,0 +1,93 @@
+#Esercizi presi da http://walkap.com/esercizi-sulla-ricorsione-svolti-python/
+
+
+#es 1 :Scrivere una funzione ricorsiva che, data una stringa s, restituisce vero se la stringa contiene
+# solo coppie consecutive formate da una cifra numerica e un carattere alfabetico; falso altrimenti.
+# Nota: ricordare metodi isdigit() e isalpha() del di dato strutturato in python 
+
+def FuncRic1(s):
+# @param s : String
+  if len(s) == 0 :
+    return true
+  if len(s) == 1 :
+    return false
+  if s[0].isalpha() and s[1].isdigit() :
+    return FuncRic1(s[2:])
+  else:
+    return false
+    
+#es2 :Scrivere una funzione ricorsiva booleana che, data una stringa s, una stringa c di lunghezza 1, e un intero n, 
+#restituisce il valore vero se c è presente ALMENO n volte nella stringa s, falso altrimenti
+
+def FuncRic2(s,c,n):
+# @param s : String
+# @param c : String
+# @param n : int
+  if len(s) == 0 :
+    if n == 0 :
+      return true
+    else:
+      return false
+  if s[0] == c :
+    return FuncRic2(s[1:],c,n-1)
+  else:
+    return FuncRic2(s[1:],c,n)
+
+
+#es 3 : Scrivere una funzione ricorsiva che data un stringa s restituisca la stringa ottenuta da s eliminando
+# le vocali.Ad esempio l'invocazione eliminaVocali('pippo') deve restituire la stringa 'ppp'. 
+
+def FuncRic3(s):
+# @param s : Stirng
+  if len(s) == 0 :
+    return s
+  if s[0] == "a" or s[0] == "e" or s[0] == "i" or s[0] == "o" or s[0] == "u" or s[0] == "A" or s[0] == "E" or s[0] == "I" or s[0] == "O" or s[0] == "U" :
+    return FuncRic3(s[1:])
+  else:
+    return s[0] + FuncRic3(s[1:])
+    
+#questa è una soluzione alternativa interessante dato che usa la funzione in per le liste
+
+def FuncRic3Alt(s):
+# @param s : String
+  vocal = ["a","e","i","o","u","A","E","I","O","U"]
+  if len(s) == 0:
+    return s
+  if s[0] in vocal:
+    return f(s[1:])
+  else:
+    return s[0] + f(s[1:])
+
+#es 4 :Scrivere una funzione ricorsiva che, data una stringa s, restituisce come risultato
+# una stringa ottenuta elimanando da s tutti i caratteri ripetuti consecutivamente, tranne 
+# il primo (Es.: se s = 'aaabbcccc' la funzione deve restituire 'abc'; se s = 'ababcc' la funzione deve restituire 'ababc'. 
+
+def FuncRic4(s):
+# @param s : String
+  if len(s) <= 1 :
+    return s
+  if s[0] == s[1] :
+    return FuncRic4(s[1:])
+  else:
+    return s[0] + FuncRic4(s[1:])
+
+#es5 :Scrivere una funzione ricorsiva che data una lista di interi l restituisce la somma dei soli numeri pari. 
+
+def FuncRic5(l):
+# @param l : List
+  if l == [] :
+    return 0
+  if l[0]%2 == 1 :
+    return FuncRic5(l[1:])
+  else:
+    return l[0] + FuncRic5(l[1:])
+
+#es 6 : Scrivere una funzione ricorsiva che, data una lista di numeri interi (positivi o negativi), restituisce 
+# come risultato il valore vero se la somma dei numeri contenuti nella lista è un valori pari, falso altrimenti. 
+# Se la lista è vuota, la funzione restituisce il valore vero. 
+
+def FuncRic6(l):
+# @param l : List
+  if len(l) == 0 ;
+    return true
+  
