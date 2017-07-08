@@ -1,0 +1,69 @@
+#es1 
+def F (lis,x):
+# @param lis : List
+# @param x : Integer 
+  if len(lis) == 0:
+    return true
+  i = 0
+  if lis[i]+lis[len(lis)-1-i] == x:
+    i = i+1
+    return F(lis[1:len(lis)-i],x)
+  else:
+    return false
+    
+#es 2
+class Medico :
+  def __init__ (self,nome,cognome,specializzazione,amici):
+  # @param nome : String 
+  # @param cognome : String
+  # @param specializzazione : String 
+  # @param amici : List
+    self.nome = nome
+    self.cognome = cognome 
+    self.spec = specializzazione
+    self.amici = amici
+  
+  def getNome (self):
+    return self.nome
+  def getCognome (self):
+    return self.cognome
+  def getSpecializzazione(self):
+    return self.spec 
+  def getAmici(self):
+    return self.amici
+  
+  def setNome (self,nuovonome):
+  # @param nuovonome : String
+    if isinstance ( nuovonome , basestring ) :
+      self.nome = "" + nuovonome
+    else :
+      return " mi hai dato un tipo di dato che non appartiene al dominio delle stringhe "
+  def setCognome ( self,nuovocognome):
+  # @param nuovocognome : String
+    if isinstance ( nuovocognome , basestring ) :
+      self.cognome = "" + nuovocognome
+    else :
+      return " mi hai dato un tipo di dato che non appartiene al dominio delle stringhe "
+  def setSpecializzazione(self,nuovaspec):
+  # @param nuovaspec : String
+    if isinstance ( nuovaspec , basestring ):
+      self.spec = "" + nuovaspec
+    else :
+      return " mi hai dato un tipo di dato che non appartiene al dominio delle stringhe "
+  def setAmici(self,nuoviamici,nome):
+  # @param nuoviamici : Medico
+  # @param nome : string
+    if isinstance ( nuoviamici , Medico ):
+      self.amici += nome
+    else :
+      return " non mi hai passato un valore di tipo Medico "
+      
+#es3
+def enigma(s, i):
+# @param s : string 
+# @param i : int   
+  if i == len(s):
+    print ""  # empty string   
+  else : 
+    print s[i]     
+    enigma(s, i+1)

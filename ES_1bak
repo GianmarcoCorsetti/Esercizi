@@ -1,0 +1,64 @@
+#es 1
+def F (s) :
+# @param s : List
+  if len(s) == 0 :
+    return s
+  return s[0] + F(s[1:]) 
+
+#es2
+class Quadrato :
+  def __init__(self,l):
+  # @param l : int
+    self.l = l
+  
+  def getLato(self):
+    return self.l
+  
+  def SetLato(self,l):
+    if isintance("integer" , l) :
+      self.l = 0+l
+    else:
+      return " valore non valido"
+  
+  def Perimetro(self):
+    return self.l*4
+  
+  def Area(self):
+    return self.l**2
+
+#se3
+def F_AB (A,B,k):
+# @param A : Picture
+# @param B : Picture
+# @param k : Integer
+  if len(getPixels(A)) == 0 or len(getPixels(B)) == 0 :
+    return false
+  else:
+    for i in getPixels(A) :
+      for j in getPixels(B):
+        if not ControlloColore(i,j) :
+          k -= 1
+    if k == 0 :
+      return true
+    else:
+      return false
+def ControlloColore(a,b):
+  if getRed(a) == getRed(b) and getBlue(a) == getBlue(b) and getGreen(a) == getGreen(b) :
+    return true
+  else:
+    return false
+    
+#es4
+def start():
+  a = 3.0
+  f(a)
+  print a
+def f(x):
+  x = 5.9
+  K()
+  print a+x
+def K ():
+ a = 6.5
+#es5 x>y
+
+#es6

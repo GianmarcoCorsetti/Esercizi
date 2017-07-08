@@ -1,0 +1,43 @@
+#es1
+def F(x,s):
+# @param x : String
+# @param s : List
+  if len(s) == 0 :
+    return false
+  if S[0] == x :
+    return true
+  else:
+    return F(x,s[1:])
+
+#es2
+class Numero :
+ def __init__(self,s,B):
+ # @param s : String
+ # @param B : Integer
+   self.s = s
+   self.B = B
+ 
+ def getS(self):
+   return self.s
+ def getB(self):
+   return self.B
+ 
+ def setS(self,nuovaS):
+ # @param nuovaS : String
+   for i in range(len(nuovaS)):
+     if not isinstance(int(nuovaS[i]),(int)) and not int(nuovaS[i]) < (self.B)-1 :
+       return "Quello che mi hai dato non e cio che mi serve "
+   self.s = "" + nuovaS
+ def setB (self,nuovaB):
+ # @param nuovaB : Integer
+   if isinstance(nuovaB,(int)):
+     self.B = 0 + nuovaB
+   else:
+     return "Quello che mi hai dato non appartiene al dominio degli interi "
+ 
+ def FunzioneControllo (self):
+   for i in range(0, len(self.s)):
+     if not self.s[i] >= 0 and self.s[i] <= B-1:
+       return " rappresentazione in base ",self.B," non valida"
+     else :
+       return " Tutto ok "

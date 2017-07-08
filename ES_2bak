@@ -1,0 +1,116 @@
+#es1 
+def F(s) :
+# @param s : String
+  if len(s) == 0:
+    return s
+  return s[0] + " " + F(s[1:])
+
+#es2 
+class Persona :
+  def __init__ (self , nome , cognome , anni):
+  # @param nome : String
+  # @param cognome : String
+  # @param anni : Integer
+    self.nome = nome
+    self.cognome = cognome
+    self.anni = anni
+  
+  def getNome (self) :
+    return self.nome
+  def getCognome (self) :
+    return self.cognome
+  def getAnni (self) :
+    return self.anni
+  
+  def setNome(self,nomenuovo):
+  # @param nomenuovo : String
+    if isinstance( nomenuovo , basestring ):
+      self.nome = "" + nomenuovo
+    else:
+      return " mi hai dato un nome che non appartiene al dominio delle stringhe "
+  def setCognome(self,cognomenuovo):
+  # @param cognomenuovo : String
+    if isistance ( cognomenuovo , basestring ):
+      self.cognome = "" + cognomenuovo
+    else :
+      return " mi hai dato un nome che non appartiene al dominio delle stringhe "
+  def setAnni (self,anninuovi):
+  # @param anninuovi : Integer 
+    if isinstance ( anninuovi , (int,float) ):
+      self.anni = 0 + anninuovi
+    else:
+      return  " mi hai dato un nome che non appartiene al dominio degli interi "
+  
+class Insegnante(Persona) :
+  def __init__(self,nome,cognome,anni,materia,stipendio):
+    Persona.__init__(self,nome,cognome,anni)
+    self.mateira = materia
+    self.stipendio = stipendio
+  
+  def getMateria (self):
+    return self.materia
+  def getStipendio (self) :
+    return self.stipendio
+   
+  def setMateria (self,nuovamateria):
+  # @param nuovamateria : String
+    if isinstance( nuovamateria , basestring ):
+      self.materia = "" + nuovamateria
+    else :
+      return " mi hai dato un nome che non appartiene al dominio delle stringhe "
+  def setStipendio (self,nuovostipendio ):
+  # @param nuovostipendio : Integer
+    if isinstance ( nuovostipendio , (int,float) ):
+      self.stipendio = 0 + nuovostipendio
+    else :  
+      return " mi hai dato un nome che non appartiene al dominio degli interi "
+
+#es 6_a
+def F_ABDelta ( A , B , D ):
+# @param A : Picture 
+# @param B : Picture
+# @param D : Integer 
+  c = 0
+  for i in getPixels(A) :
+    for j in getPixels(B) :  
+      if distance(getColor(i),getColor(j)) <= D :
+        c += 1
+    if c == 2 :
+      return true
+  return false
+
+#es 6_b
+def F_ABLUM (A,B):
+# @param A : Picture
+# @param B : Picture
+  c = 0 
+  for i in getPixels(A) :  
+    c = 0 
+    for j in getPixels(B) :
+      if ControlloLum(i,j):
+        if c == 2:
+          return true
+        else:
+          c += 1
+  return false
+def ControlloLum(a,b):
+# @param a : Pixel
+# @param b : Pixel
+  if (getRed(a)+getBlue(a)+getGreen(a)) == (getRed(b)+getBlue(b)+getGreen(b)):
+    return true
+  else:
+    return false
+
+#es1_b
+def F1 (s) :  
+# @param s : String
+  if len(s) == 0 :
+    return s
+  if len(s) == 1 :
+    return s
+  if s[0] == s[1] :
+    return F1(s[1:])
+  else :
+    return s[0] + F1(s[1:])
+  
+    

@@ -1,0 +1,124 @@
+<file_created time="Tue Jul 04 15:48:36 CEST 2017">
+<menu_button time="Tue Jul 04 16:03:51 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 16:03:58 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 16:04:06 CEST 2017">s = "abcd"></command_run>
+<command_run time="Tue Jul 04 16:04:10 CEST 2017">F(s)></command_run>
+<menu_button time="Tue Jul 04 16:04:14 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 16:04:14 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 16:04:15 CEST 2017">F(s)></command_run>
+<menu_button time="Tue Jul 04 18:00:30 CEST 2017">Explain <click></menu_button>
+<menu_button time="Tue Jul 04 18:00:38 CEST 2017">Explain distance</menu_button>
+<menu_button time="Tue Jul 04 18:00:50 CEST 2017">Program Area + Interactions Area</menu_button>
+<menu_button time="Tue Jul 04 18:03:04 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:03:05 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<menu_button time="Tue Jul 04 18:03:14 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:03:14 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<menu_button time="Tue Jul 04 18:03:20 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:03:20 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<menu_button time="Tue Jul 04 18:03:49 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:03:49 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<menu_button time="Tue Jul 04 18:09:11 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:09:12 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<menu_button time="Tue Jul 04 18:09:17 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:09:18 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<menu_button time="Tue Jul 04 18:09:24 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:09:25 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:10:06 CEST 2017">A = Persona ( "Gianmarco","Corsetti",20)></command_run>
+<command_run time="Tue Jul 04 18:10:39 CEST 2017">B = Insegnante("Gianmarco","Corsetti",20,Informatica,2000)></command_run>
+<command_run time="Tue Jul 04 18:10:48 CEST 2017">B = Insegnante("Gianmarco","Corsetti",20,"Informatica",2000)></command_run>
+<menu_button time="Tue Jul 04 18:11:12 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:11:13 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:11:16 CEST 2017">A = Persona ( "Gianmarco","Corsetti",20)></command_run>
+<command_run time="Tue Jul 04 18:11:18 CEST 2017">B = Insegnante("Gianmarco","Corsetti",20,"Informatica",2000)></command_run>
+<command_run time="Tue Jul 04 18:11:24 CEST 2017">B.geNome()></command_run>
+<command_run time="Tue Jul 04 18:11:54 CEST 2017">B.getNome()></command_run>
+<command_run time="Tue Jul 04 18:12:15 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:12:31 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:12:31 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:12:33 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:12:52 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:12:52 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:12:53 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:13:19 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:13:19 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:13:20 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:13:25 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:13:25 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:13:26 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:13:48 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:13:48 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:13:49 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:13:57 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:13:57 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:13:58 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:24:11 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:24:12 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:24:12 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:34:47 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:34:47 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:34:48 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:34:58 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:35:00 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:35:02 CEST 2017">B.setNome("Carmen")></command_run>
+<menu_button time="Tue Jul 04 18:37:29 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:37:30 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:37:31 CEST 2017">B.setNome("Carmen")></command_run>
+<command_run time="Tue Jul 04 18:37:55 CEST 2017">isinstance ( 'ciao', basestring)></command_run>
+<menu_button time="Tue Jul 04 18:38:58 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:38:59 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:39:01 CEST 2017">B.setNome("Carmen")></command_run>
+<command_run time="Tue Jul 04 18:39:13 CEST 2017">C = Insegnante("Gianmarco","Corsetti",20,"Informatica",2000)></command_run>
+<command_run time="Tue Jul 04 18:39:18 CEST 2017">C.setNome("Carmen")></command_run>
+<command_run time="Tue Jul 04 18:39:26 CEST 2017">C.getNome("Carmen")></command_run>
+<command_run time="Tue Jul 04 18:39:32 CEST 2017">C.getNome()></command_run>
+<command_run time="Tue Jul 04 18:40:06 CEST 2017">C.setAnni(19)></command_run>
+<menu_button time="Tue Jul 04 18:40:41 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:40:41 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:40:50 CEST 2017">b = Insegnante("Gianmarco","Corsetti",20,"Informatica",2000)></command_run>
+<command_run time="Tue Jul 04 18:40:55 CEST 2017">b.setAnni(19)></command_run>
+<command_run time="Tue Jul 04 18:41:26 CEST 2017">isintance ( 20 , (int))></command_run>
+<command_run time="Tue Jul 04 18:41:33 CEST 2017">isintance ( 20 , int)></command_run>
+<command_run time="Tue Jul 04 18:41:40 CEST 2017">isintance ( 20 , "int" ) ></command_run>
+<menu_button time="Tue Jul 04 18:41:54 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:41:54 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:41:58 CEST 2017">b = Insegnante("Gianmarco","Corsetti",20,"Informatica",2000)></command_run>
+<command_run time="Tue Jul 04 18:42:03 CEST 2017">b.setAnni(19)></command_run>
+<menu_button time="Tue Jul 04 18:42:19 CEST 2017">Load Program</menu_button>
+<file_saved time="Tue Jul 04 18:42:20 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>
+<command_run time="Tue Jul 04 18:42:21 CEST 2017">b.setAnni(19)></command_run>
+<menu_button time="Tue Jul 04 18:42:29 CEST 2017">Load Program</menu_button>
+<command_run time="Tue Jul 04 18:42:29 CEST 2017">></command_run>
+<menu_button time="Tue Jul 04 18:42:31 CEST 2017">Load Program</menu_button>
+<command_run time="Tue Jul 04 18:42:44 CEST 2017">A = Insegnante("Gianmarco","Corsetti",20,"Informatica",2000)></command_run>
+<command_run time="Tue Jul 04 18:42:56 CEST 2017">A.setAnni(30)></command_run>
+<command_run time="Tue Jul 04 18:43:03 CEST 2017">A.getAnni()></command_run>
+<menu_button time="Tue Jul 04 18:43:35 CEST 2017">Save Program</menu_button>
+<file_saved time="Tue Jul 04 18:43:35 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+<file_opened time="Wed Jul 05 15:25:17 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_opened>
+<menu_button time="Wed Jul 05 15:52:38 CEST 2017">Load Program</menu_button>
+<file_saved time="Wed Jul 05 15:52:38 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_2</file_saved>
+</file_created>

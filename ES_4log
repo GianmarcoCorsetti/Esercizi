@@ -1,0 +1,69 @@
+<file_created time="Wed Jul 05 16:13:08 CEST 2017">
+<menu_button time="Wed Jul 05 16:15:56 CEST 2017">Load Program</menu_button>
+<file_saved time="Wed Jul 05 16:16:02 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<menu_button time="Wed Jul 05 17:35:25 CEST 2017">Load Program</menu_button>
+<file_saved time="Wed Jul 05 17:35:26 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<menu_button time="Wed Jul 05 17:35:31 CEST 2017">Load Program</menu_button>
+<file_saved time="Wed Jul 05 17:35:32 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<menu_button time="Wed Jul 05 17:35:36 CEST 2017">Load Program</menu_button>
+<file_saved time="Wed Jul 05 17:35:36 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<command_run time="Wed Jul 05 17:36:39 CEST 2017">A = Numero("11110",2)></command_run>
+<command_run time="Wed Jul 05 17:36:45 CEST 2017">A.setS></command_run>
+<command_run time="Wed Jul 05 17:37:03 CEST 2017">A.setS("11111111")></command_run>
+<command_run time="Wed Jul 05 18:36:29 CEST 2017">A.FunzioneControllo()></command_run>
+<menu_button time="Wed Jul 05 18:37:01 CEST 2017">Load Program</menu_button>
+<file_saved time="Wed Jul 05 18:37:01 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+<file_opened time="Thu Jul 06 15:08:45 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_opened>
+<menu_button time="Thu Jul 06 16:19:45 CEST 2017">Load Program</menu_button>
+<command_run time="Thu Jul 06 16:20:06 CEST 2017">N = Numero ( "10001", 2 )></command_run>
+<command_run time="Thu Jul 06 16:20:11 CEST 2017">N.getS()></command_run>
+<command_run time="Thu Jul 06 16:20:18 CEST 2017">N.getB()></command_run>
+<menu_button time="Thu Jul 06 16:20:30 CEST 2017">Load Program</menu_button>
+<file_saved time="Thu Jul 06 16:20:31 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<command_run time="Thu Jul 06 16:20:43 CEST 2017">N = Numero ( "10001", 2 )></command_run>
+<command_run time="Thu Jul 06 16:20:46 CEST 2017">N.getB()></command_run>
+<command_run time="Thu Jul 06 16:24:24 CEST 2017">N.FunzioneControllo()></command_run>
+<command_run time="Thu Jul 06 16:24:45 CEST 2017">N.setB(3)></command_run>
+<menu_button time="Thu Jul 06 16:24:56 CEST 2017">Load Program</menu_button>
+<file_saved time="Thu Jul 06 16:24:56 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<command_run time="Thu Jul 06 16:24:59 CEST 2017">N = Numero ( "10001", 2 )></command_run>
+<command_run time="Thu Jul 06 16:25:01 CEST 2017">N.setB(3)></command_run>
+<command_run time="Thu Jul 06 16:25:05 CEST 2017">N.getB()></command_run>
+<command_run time="Thu Jul 06 16:25:17 CEST 2017">N.setS("2001020")></command_run>
+<command_run time="Thu Jul 06 16:25:29 CEST 2017">s = "2000020202"></command_run>
+<command_run time="Thu Jul 06 16:25:33 CEST 2017">s[0]></command_run>
+<command_run time="Thu Jul 06 16:25:51 CEST 2017">int(s[0])></command_run>
+<menu_button time="Thu Jul 06 16:26:08 CEST 2017">Load Program</menu_button>
+<file_saved time="Thu Jul 06 16:26:08 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<command_run time="Thu Jul 06 16:26:13 CEST 2017">N = Numero ( "10001", 2 )></command_run>
+<command_run time="Thu Jul 06 16:26:16 CEST 2017">N.setS("2001020")></command_run>
+<command_run time="Thu Jul 06 16:26:23 CEST 2017">N.getS()></command_run>
+<command_run time="Thu Jul 06 16:26:37 CEST 2017">N.setS("37473")></command_run>
+<menu_button time="Thu Jul 06 16:27:36 CEST 2017">Load Program</menu_button>
+<file_saved time="Thu Jul 06 16:27:38 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<command_run time="Thu Jul 06 16:27:41 CEST 2017">N = Numero ( "10001", 2 )></command_run>
+<command_run time="Thu Jul 06 16:27:44 CEST 2017">N.setS("37473")></command_run>
+<command_run time="Thu Jul 06 16:27:57 CEST 2017">N.FunzioneControllo()></command_run>
+<menu_button time="Thu Jul 06 17:02:37 CEST 2017">Load Program</menu_button>
+<file_saved time="Thu Jul 06 17:02:37 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<command_run time="Thu Jul 06 17:02:40 CEST 2017">N = Numero ( "10001", 2 )></command_run>
+<command_run time="Thu Jul 06 17:02:42 CEST 2017">N.setS("37473")></command_run>
+<command_run time="Thu Jul 06 17:02:47 CEST 2017">N.FunzioneControllo()></command_run>
+<menu_button time="Thu Jul 06 19:26:59 CEST 2017">Save Program</menu_button>
+<file_saved time="Thu Jul 06 19:26:59 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+<file_opened time="Fri Jul 07 11:49:20 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_opened>
+<menu_button time="Fri Jul 07 12:09:42 CEST 2017">Load Program</menu_button>
+<file_saved time="Fri Jul 07 12:09:42 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
+<menu_button time="Fri Jul 07 12:09:48 CEST 2017">Load Program</menu_button>
+<file_saved time="Fri Jul 07 12:09:49 CEST 2017">C:\Users\gianm\Desktop\gimmy\ESJES\ES_4</file_saved>
+</file_created>
